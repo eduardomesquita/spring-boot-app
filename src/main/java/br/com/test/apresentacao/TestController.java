@@ -18,7 +18,6 @@ public class TestController {
     @Value("${teste}")
     private String valor;
 
-
     @RequestMapping(value = "teste-propriedade",
                     method = RequestMethod.GET)
     public ResponseEntity<String> retornaPropriedade() {

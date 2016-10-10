@@ -13,7 +13,6 @@ import org.springframework.boot.context.web.SpringBootServletInitializer;
 @EnableAutoConfiguration
 public class TestApplication extends SpringBootServletInitializer{
 
-
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
         return builder.sources(TestApplication.class);
