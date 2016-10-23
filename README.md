@@ -1,6 +1,6 @@
 # spring-boot-app
 
-A simple sample application Spring Boot
+A simple sample application [Spring Boot](http://projects.spring.io/spring-boot/), using [Liquibase](http://www.liquibase.org/) to control the database.
 
 ## Requires
 
