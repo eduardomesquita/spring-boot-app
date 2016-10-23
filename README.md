@@ -10,15 +10,11 @@ A simple sample application Spring Boot
 - Docker Machine (>= 0.7.0)
 - Docker Compose (>= 1.8.0)
 
-## Running docker for database container
+## Running Docker for database container
 Creating a [Docker](https://www.docker.com/) container image for [PostgreSQL](http://postgresql.org/). Using the Docker [official image](https://docs.docker.com/docker-hub/official_repos/) for [postgres](https://registry.hub.docker.com/_/postgres/). See [the Docker Hub page](https://registry.hub.docker.com/_/postgres/) for the full readme.
 
 ### Quickstart
 
-With docker service running:
-```bash
-cd spring-boot-app/docker
-```
 Create virtual machine for docker container:
 ```bash
 docker-machine create --driver virtualbox default
@@ -40,10 +36,15 @@ export DOCKER_MACHINE_NAME="default"
 # Run this command to configure your shell: 
 # eval $(docker-machine env)
 ```
-Connect your shell to the new machine
+Connect your shell to the new machine:
 ```bash
 eval $(docker-machine env)
 ```
+And run docker-compose.yml:
+```bash
+cd {your_dir}/spring-boot-app/docker && docker-compose up
+```
+
 
 ## Build
 - mvn clean package
