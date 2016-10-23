@@ -72,6 +72,8 @@ Read Spring Boot properties
 ```bash
 curl http://localhost:8080/cliente/consulta-propriedade
 ```
+Output:
+
 ```console
 funcionou?
 ```
@@ -80,6 +82,8 @@ Query in database
 ```bash
 curl http://localhost:8080/cliente/pesquisa
 ```
+Output:
+
 ```console
 [{"id":1,"endereco":{"id":1,"cidade":"Brasília"},"nome":"Eduardo","cpf":"11111111111"},{"id":2,"endereco":{"id":2,"cidade":"São Paulo"},"nome":"Jose","cpf":"22222222222"},{"id":3,"endereco":{"id":3,"cidade":"Rio de Janeiro"},"nome":"Maria","cpf":"33333333333"}]
 ```
