@@ -2,8 +2,6 @@
 
 A simple sample application Spring Boot
 
-## Installation
-
 ## Requires
 
 - Java (>= 1.8)
@@ -12,12 +10,8 @@ A simple sample application Spring Boot
 - Docker Machine (>= 0.7.0)
 - Docker Compose (>= 1.8.0)
 
-## Configure
-
 ## Database
 Creating a [Docker](https://www.docker.com/) container image for [PostgreSQL](http://postgresql.org/)
-
-
 
 ## Build
 - mvn clean package
