@@ -15,7 +15,7 @@ Creating a [Docker](https://www.docker.com/) container image for [PostgreSQL](ht
 
 ### Quickstart
 
-With docker service running
+With docker service running:
 ```bash
 cd spring-boot-app/docker
 ```
