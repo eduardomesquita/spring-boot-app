@@ -10,7 +10,7 @@ A simple sample application Spring Boot
 - Docker Machine (>= 0.7.0)
 - Docker Compose (>= 1.8.0)
 
-## Database
+## Running docker for database container
 Creating a [Docker](https://www.docker.com/) container image for [PostgreSQL](http://postgresql.org/). Using the Docker [official image](https://docs.docker.com/docker-hub/official_repos/) for [postgres](https://registry.hub.docker.com/_/postgres/). See [the Docker Hub page](https://registry.hub.docker.com/_/postgres/) for the full readme.
 
 ### Quickstart
