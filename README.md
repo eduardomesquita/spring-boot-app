@@ -45,10 +45,7 @@ And run docker-compose.yml:
 cd {your_dir}/spring-boot-app/docker && docker-compose up
 ```
 Test your connection in your favorite database tool:
-> host: 192.168.99.100
-> port: 32768
-> databse: postgres
-> user/password: postgres
+> jdbc:postgresql://192.168.99.100:32768/postgres
 
 ## Build
 - mvn clean package
