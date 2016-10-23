@@ -45,7 +45,6 @@ And run docker-compose.yml:
 cd {your_dir}/spring-boot-app/docker && docker-compose up
 ```
 
-
 ## Build
 - mvn clean package
 
