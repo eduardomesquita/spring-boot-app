@@ -44,9 +44,9 @@ And run docker-compose.yml:
 ```bash
 cd {your_dir}/spring-boot-app/docker && docker-compose up
 ```
-Test your connection in your favorite database tool:
-> host: 192.168.99.100 port: 32768 database: postgres \
-user/pass: postgres
+> **Test your connection in your favorite database tool**
+> - host: 192.168.99.100 port: 32768 database: postgres
+> - user/pass: postgres
 
 
 ## Build
