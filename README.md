@@ -13,7 +13,7 @@ A simple sample application Spring Boot
 ## Database
 Creating a [Docker](https://www.docker.com/) container image for [PostgreSQL](http://postgresql.org/). Using the Docker [official image](https://docs.docker.com/docker-hub/official_repos/) for [postgres](https://registry.hub.docker.com/_/postgres/). See [the Docker Hub page](https://registry.hub.docker.com/_/postgres/) for the full readme.
 
-## Quickstart
+### Quickstart
 
 Create virtual machine for docker container:
 
