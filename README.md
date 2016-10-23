@@ -27,11 +27,11 @@ Start new docker machine:
 ```bash
 docker-machine start
 ```
-Get the environment commands for your new VM.
+Get the environment commands for your new VM:
 ```bash
 docker-machine env
 ```
-
+Output:
 ```console
 export DOCKER_TLS_VERIFY="1"
 export DOCKER_HOST="tcp://192.168.99.100:2376"
