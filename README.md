@@ -15,8 +15,11 @@ Creating a [Docker](https://www.docker.com/) container image for [PostgreSQL](ht
 
 ### Quickstart
 
+With docker service running
+```bash
+cd spring-boot-app/docker
+```
 Create virtual machine for docker container:
-
 ```bash
 docker-machine create --driver virtualbox default
 ```
