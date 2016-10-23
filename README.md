@@ -52,7 +52,9 @@ cd {your_dir}/spring-boot-app/docker && docker-compose up
 > - user/pass: postgres
 
 ## Build
-- mvn clean package
+```bash
+mvn clean package
+```
 
 ## Configure liquibase
 - Create schema 'teste' in the database postgres
@@ -64,6 +66,9 @@ mvn liquibase:update
 ```bash
 mvn spring-boot:run
 ```
+
+## Testing
+
 
 
 
