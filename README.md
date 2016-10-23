@@ -8,7 +8,6 @@ A simple sample application Spring Boot
 - Java (>= 1.8)
 - Apache Maven (>= 3.3.9)
 
-  Docker
 - Docker (>= 1.11.2)
 - Docker Machine (>= 0.7.0)
 - Docker Compose (>= 1.8.0)
