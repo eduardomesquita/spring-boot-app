@@ -74,6 +74,7 @@ curl http://localhost:8080/cliente/consulta-propriedade
 ```
 ```console
 funcionou?
+```
 
 Query in database
 ```bash
