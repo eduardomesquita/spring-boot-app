@@ -2,19 +2,27 @@
 
 A simple sample application Spring Boot
 
-<h1> Installation </h1> 
+## Installation
 
-<h2> Requires </h2>
+## Requires
+
 - Java (>= 1.8)
 - Apache Maven (>= 3.3.9)
 - Docker (>= 1.11.2)
 - Docker Machine (>= 0.7.0)
 - Docker Compose (>= 1.8.0)
 
-<h1> Build </h1>
+## Configure
+
+## Database
+Creating a [Docker](https://www.docker.com/) container image for [PostgreSQL](http://postgresql.org/)
+
+
+
+## Build
 - mvn clean package
 
-<h1> Run </h1>
+## Run
 - mvn spring-boot:run
 
 
