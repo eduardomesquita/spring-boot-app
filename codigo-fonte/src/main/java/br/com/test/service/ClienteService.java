@@ -21,9 +21,9 @@ public class ClienteService {
         List<Cliente> clientes = pesquisa();
 
         Cliente cliente = new Cliente();
-        /*cliente.setId(Long.valueOf(clientes.size() + 1));
+        cliente.setId(Long.valueOf(clientes.size() + 1));
         cliente.setNome("Teste " + (clientes.size() + 1));
-        cliente.setCpf("1234567890");*/
+        cliente.setCpf("1234567890");
 
         return clienteRepository.save(cliente);
     }
